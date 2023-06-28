@@ -80,7 +80,7 @@ export default function MovieDetails({
         setIsLoading(true);
         // Fetching data from url
         const res = await fetch(
-          `http://www.omdbapi.com/?apikey=6f8f53cd&i=${selectedId}`
+          `https://www.omdbapi.com/?apikey=6f8f53cd&i=${selectedId}`
         );
         if (!res.ok)
           throw new Error("something went wrong with fetching movie");
