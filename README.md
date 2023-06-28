@@ -1,6 +1,10 @@
-# Getting Started with Create React App
+# usePopcorn
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This app was made using online course on Udemy called "The Ultimate React Course 2023: React, Redux & More" by Jonas Schmedtmann. It allows users to search for movies using omdb api and give them ratings.
+
+## live demo
+
+https://effortless-capybara-1f88a5.netlify.app/
 
 ## Available Scripts
 
