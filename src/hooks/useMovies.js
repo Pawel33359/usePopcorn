@@ -18,7 +18,7 @@ export function useMovies(query /*,callback*/) {
 
         // Fetching data from url
         const res = await fetch(
-          `http://www.omdbapi.com/?apikey=${process.env.REACT_APP_APIKEY}&s=${query}`,
+          `http://www.omdbapi.com/?apikey=6f8f53cd&s=${query}`,
           { signal: controller.signal }
         );
         if (!res.ok)
